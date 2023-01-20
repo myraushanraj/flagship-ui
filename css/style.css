@@ -1445,6 +1445,7 @@ over-btn a i {
 #contact {
     padding: 80px 0;
     position: relative;
+	padding-top:5px
 }
 
 .contact-pa {
@@ -1564,6 +1565,7 @@ textarea::placeholder {
 =============================*/
 #blog {
     padding: 80px 0;
+	padding-top:5px
 }
 
 .blog-header h3:after {
