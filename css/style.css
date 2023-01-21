@@ -735,6 +735,7 @@ p {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: -1;
+    display: none;
 }
 
 .unique-style3::after {
@@ -747,6 +748,7 @@ p {
     border: 2px solid #ededed;
     border-color: #1d1d1d;
     z-index: -11;
+    display: none;
 }
 
 .unique-style3::before {
@@ -759,6 +761,7 @@ p {
     width: 10px;
     background: #15ff15;
     z-index: -1;
+    display: none;
 }
 
 .unique-style4::after {
@@ -1253,7 +1256,7 @@ over-btn a i {
 .team-item p {
     font-family: pr;
     font-size: 18px;
-    color: #787878;
+    color: #ffffff;
     padding-bottom: 14px;
 }
 
@@ -1421,6 +1424,7 @@ over-btn a i {
     background: #15ff15;
     border: 2px solid #15ff15;
     border-radius: 50%;
+    width: 80px;
 }
 
 .user-txt h3 {
@@ -1445,7 +1449,6 @@ over-btn a i {
 #contact {
     padding: 80px 0;
     position: relative;
-	padding-top:5px
 }
 
 .contact-pa {
@@ -1565,7 +1568,6 @@ textarea::placeholder {
 =============================*/
 #blog {
     padding: 80px 0;
-	padding-top:5px
 }
 
 .blog-header h3:after {
@@ -1828,6 +1830,7 @@ textarea::placeholder {
 .about-txt ul li{
     color:#fff;
     list-style: auto;
+    margin: 10px 15px;
 
 }
 
@@ -1841,8 +1844,8 @@ textarea::placeholder {
 .box label span {
     position:relative;
     display:inline-block;
-    margin: 20px 10px;
-    font-size:15px;
+    margin: 20px 0px;
+    font-size:14px;
     padding:20px;
     width: 150px;
     background: #000;

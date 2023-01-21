@@ -421,10 +421,11 @@ p {
     transition: all linear .3s;
     position: relative;
     margin-right: 18px;
+    background: rgba(255, 162, 14, 1);
 }
 
 .bor {
-    background: rgba(255, 162, 14, 1);;
+    background: #161616;
     padding: 10px 25px !important;
     position: relative;
     border-radius: 3px;
@@ -513,7 +514,7 @@ p {
 }
 
 .nav-bg .bor {
-    background: rgba(255, 162, 14, 1);
+    background: #15ff15;
 }
 
 .nav-bg .bor:after {
@@ -532,7 +533,7 @@ p {
 2.0 *** BANNER AREA START ***
 =============================*/
 #banner {
-    padding: 144px 0 100px;
+    padding: 260px 0 100px;
     position: relative;
     width: 100%;
 }
@@ -580,7 +581,7 @@ p {
 
 .banner-txt p {
     font-size: 17px;
-    color: #fff;
+    color: #787878;
     padding-right: 40px;
     line-height: 26px;
     padding-bottom: 45px;
@@ -966,7 +967,7 @@ over-btn a i {
 
 .about-txt p {
     font-size: 17px;
-    color: #fff;
+    color: #787878;
     line-height: 27px;
     padding-bottom: 30px;
 }
@@ -1445,7 +1446,6 @@ over-btn a i {
 #contact {
     padding: 80px 0;
     position: relative;
-	padding-top:5px
 }
 
 .contact-pa {
@@ -1823,76 +1823,4 @@ textarea::placeholder {
 .fop-btm a {
     color: #15ff15;
     font-family: pb;
-}
-.about-txt ul li{
-    color:#fff;
-    list-style: auto;
-
-}
-
-.box label {
-    position:relative;
-    cursor:pointer;
-}
-.box label input {
-    display:none;
-}
-.box label span {
-    position:relative;
-    display:inline-block;
-    margin: 20px 10px;
-    font-size:15px;
-    padding:20px;
-    width: 150px;
-    background: #000;
-    border: 1px solid #444;
-    color: #fff;
-    border-radius: 4px;
-}
-.box label input:checked ~ span {
-    color:#fff;
-    border: 1px solid #008eff;
-}
-.box label input:checked ~ span:before {
-    content:'';
-    width: 100%;
-    height: 100%;
-    position:absolute;
-    top:0;
-    left:0;
-    background:#008eff;
-    z-index:-1;
-    filter: blur(10px);
-}
-.box label input:checked ~ span:after {
-    content:'';
-    width: 100%;
-    height: 100%;
-    position:absolute;
-    top:0;
-    left:0;
-    background:#008eff;
-    z-index:-1;
-    filter: blur(15px);
-}
-.box label input:checked ~ span.yes {
-    color:#62ff00;
-    border-color:#62ff00;
-    box-shadow: inset 0 0 10px #62ff00;
-}
-
-.box label input:checked ~ span.yes:before,
-.box label input:checked ~ span.yes:after {
-    background:#62ff00;
-}
-
-.box label input:checked ~ span.no {
-    color:#ff0000;
-    border-color:#ff0000;
-    box-shadow: inset 0 0 10px #ff0000;
-}
-
-.box label input:checked ~ span.no:before,
-.box label input:checked ~ span.no:after {
-    background:#ff0000;
 }
