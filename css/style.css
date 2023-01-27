@@ -1901,3 +1901,9 @@ textarea::placeholder {
 .box label input:checked ~ span.no:after {
     background:#ff0000;
 }
+.sponsor-banner-para{
+    padding-bottom: 12px !important;
+}
+.banner-para{
+    padding-top: 0px !important;
+}
