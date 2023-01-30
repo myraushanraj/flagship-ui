@@ -584,6 +584,7 @@ p {
     padding-right: 40px;
     line-height: 26px;
     padding-bottom: 45px;
+    text-align: justify;
 }
 
 .separate-p {
@@ -973,6 +974,7 @@ over-btn a i {
     color: #fff;
     line-height: 27px;
     padding-bottom: 30px;
+    text-align: justify;
 }
 
 .separate-p {
@@ -1832,6 +1834,7 @@ textarea::placeholder {
     color:#fff;
     list-style: auto;
     margin: 10px 15px;
+    text-align: justify;
 
 }
 
@@ -1905,5 +1908,25 @@ textarea::placeholder {
     padding-bottom: 12px !important;
 }
 .banner-para{
+    padding-top: 0px !important;
+}
+.text-white{
+    color: #fff;
+}
+.text-white h1{
+    color: #fff;
+    font-size: 60px;
+
+}
+.text-white p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 37px;
+
+}
+.sponsor-title{
+    font-size: 44px !important;
+}
+.sponsor-contact{
     padding-top: 0px !important;
 }
